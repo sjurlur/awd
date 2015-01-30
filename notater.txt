@@ -1,0 +1,46 @@
+We’re not designing pages, we’re designing systems of components.—Stephen Hay
+
+Responsive Deliverables by Dave Rupert talks about the idea of constructing “Tiny Bootstraps, for Every Client”
+
+*presenter hva du vil presentere
+*si hvor mange poeng det er
+
+- Hvorfor atomic web design
+	I gamle dager kunne en stort sett anta at web-innhold kom til å bli konsumert på en bestemt måte. På en desktop maskin med skjerm, mus og tastatur og en i hvert fall til del kjent oppløsning. 
+
+	I dag vet vi at folk konsumererer nettinnhold på ett hav av forskjellige enheter, forskjellige skjermstørrelser og brukskontekster. I tillegg har det nå (fra 2015) blitt lovpålagt at alle nettsider skal være universelt utformet. En må også huske på og designe for fremtiden. Hvilke skjermstørrelser kommer man til å se fremover? hvilke brukskontekster? Nettsurfing på TV med fjernkontrollen. 17" portrettskjerm i teslaen
+
+	Hvordan skal da en frontend leveranse/ design leveranse se ut i 2015
+
+	We’re not designing pages, we’re designing systems of components.—Stephen Hay
+
+	Designsystemer hat blitt stadig mer vanlig. Pixler er ikke satt, men en designer en grafisk profil uavhengig av hvordan innholdet brekker ned på mindre skjermer. Ulempen med dette er at det fort kan bli litt vagt. Du kan si her er noen farger, men hva så. De formidler ikke budskapet. Vi trenger noe mer konkret. Designsystemet er for abstrakt og tatt ut av kontekst. 
+
+- Løsningen
+	Derfor atomic. En metodologi for å tenke på design av nettsteder. På samme måte som i systemutvikling hvor man bryter ned problemet til de minst tenkelige modulene. Moduler som bare gjør en ting, har man her det som Brad kaller for atomer. De minste bestanddelene i en nettside. 
+
+- Hva er atomic web design (Brad frost)
+	- Atomer
+		Dette kan være farger, fonter, labels, p, bold, italic, etc. 
+	- Molekyler
+		Så kommer vi til neste nivå. Molekyler er satt sammen av flere atomer og atomene som ikke gir så mye mening i seg selv, blir plutselig til noe. Vis feks en søkeboks som betår av tekstboks, label, og søkeknapp
+	- Organismer
+		Her begynner vi å komme inn på noe som ser ut som en nettside. Ett eksempel på dette kan være en header. Vis hvordan headeren ser ut på forskjellige skjermstørrelser. Ett system av molekyler
+	- Sider
+		Her begynner vi å komme over i klientverdenen. Dette er ting som man kan vise fram og gir mening for kunden. Her er det ikke lenger abstrakt. 
+
+- Atomic web design i helsedirektoratet
+	- Hvordan er kode organisert (gjør det lettere å finne relevant kode i ett stort system med veldig mange undersider)
+
+	- vise designsystem
+	- Eksempel: nytt molekyl inn i systemet
+	Da jeg trengte ett nytt molekyl, legge det rett inn sammen med de andre molekylene. Klar til gjenbruk.
+	- Eksempel fra brukertest: Organisme må endres
+
+Konklusjon og problemer med metoden
+	- Kun en metodologi. Ikke ett strengt rammeverk, derfor er det opp til hver enkelt å implementere det. Det er ikke ett regelverk man kan følge så blir alt perfekt
+	- Fin måte å komme i gang på
+	- Er for fremtiden
+	- Fint for å organisere komponenter
+
+

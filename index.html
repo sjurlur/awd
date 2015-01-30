@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Atomic web design</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="Sjur Seibt">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Atomic web design</h1>
+					<h3>(på helsenorge.no)</h3>
+					<p>
+						<small><a href="http://sjur.me"> http://sjur.me</a> </small>
+					</p>
+				</section>
+
+				<section>
+					<img data-src="img/one_device.jpeg" alt="">
+				</section>
+
+				<section>
+					<img data-src="img/many_devices.jpg" alt="">
+				</section>
+
+				<section>
+					<img data-src="img/tesla_screen.jpg" alt="">
+				</section>
+
+
+				<section>
+						<h3>Stilguider</h3>
+						<img data-src="img/helsedir_styleguide.png" alt="" class="stretch">
+				</section>
+
+				<section id="atoms">
+					
+					<section>
+						<h3>Atomer</h3>
+						<img data-src="img/atoms.svg" class="nostyle">
+					</section>
+					<section><img class="stretch" data-src="img/periodic_table_of_elements.png"></section>
+					<section>
+						<div class="img_container">
+
+						<span class="img_text">Label: </span>
+						<img class="nostyle img_nomargin" data-src="img/atom_label.png">
+						<br>
+						<hr>
+						<span class="img_text">input[type="submit"]: </span>
+						<img class="nostyle img_nomargin"  data-src="img/atom_btn_search.png">
+						<br>
+						<hr>
+						<span class="img_text">input[type="text"]: </span>
+						<img class="nostyle img_nomargin"  data-src="img/atom_input.png">
+						</div>
+					</section>
+
+				</section>
+
+
+				<section id="molecules">
+
+					<section>
+						<h3>Molekyler</h3>
+						<img data-src="img/molecules.svg" class="nostyle">
+					</section>
+					<section><img class="stretch" data-src="img/molecule_search.png"></section>
+
+				</section>
+
+				<section id="organisms">
+					<section>
+						<h3>Organismer</h3>
+						<img data-src="img/organism.svg" class="nostyle">
+					</section>
+					<section>
+						<img class="stretch" data-src="img/organism_header.png">
+					</section>
+					<section>
+						<img class="stretch" data-src="img/organism_footer.png">
+					</section>
+				</section>
+
+				<section id="pages">
+					<section>
+						<h3>Sider</h3>
+						<img data-src="img/page.svg" class="nostyle">
+					</section>
+					<section><img class="stretch" data-src="img/whole_page.png"></section>
+				</section>
+
+				<section>
+					<img data-src="img/abstrakt-konrekt.svg" class="nostyle stretch" style="display: block;"alt="">
+					<img data-src="img/atoms.svg" class="nostyle juxtaposed">
+					<img data-src="img/arrow.svg" class="nostyle arrow">
+					<img data-src="img/molecules.svg" class="nostyle juxtaposed">
+					<img data-src="img/arrow.svg" class="nostyle arrow">
+					<img data-src="img/organism.svg" class="nostyle juxtaposed">
+					<img data-src="img/arrow.svg" class="nostyle arrow">
+					<img data-src="img/page.svg" class="nostyle juxtaposed">
+					<img data-src="img/konsulent-klient.svg" class="nostyle stretch" style="display: block;"alt="">
+				</section>
+
+				<section>
+					<section>
+					<h3>Holde kode organisert</h3>
+					<img data-src="img/organisering.png" alt="" class="stretch">
+					</section>
+					<section>
+						<img class="stretch" data-src="img/molecule_search.png">
+					</section>
+				</section>
+
+				<section>
+					<h3>Oppsummering</h3>
+					<ul>
+						<li>Nettsider må kunne brukes uavhengig av hvilken enhet man bruker</li>
+						<li>Atomic design er en metodologi for å lage et formspråk uavhengig av skjermstørrelse</li>
+						<li>Innholdet på siden kan tilpasses forskjellige formater</li>
+						<li>Gir verdi til: 
+							<ul>
+								<li>Designer</li>
+								<li>Utvikler</li>
+								<li>Kunde</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

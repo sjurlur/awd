@@ -1,0 +1,66 @@
+#1
+	-Jeg heter Sjur og begynte nylig som frontend utvikler for tjenesten fritt valg av behandlingssted på helsenorge.no 
+
+	-helsenorge.no 
+		-paraply
+
+	i dag skal jeg snakke om Atomic web design,som har vært løsningen på en del av problemene som oppstår i designet av en så stor nettportal
+
+#2
+	Når en lagte nettsider i gamle dager visste en stort sett hvordan innholdet kom te å ble konsumert. Dekstop maskin med mus og tastatur plassert på ett kontor. Kunne komme unna med ett design
+
+#3
+	Spol 20 år frem i tid. Folk konsumerer nettsider på ett hav av forskjllige måter. På do, på bussen, jobben, på utrolig mange forskjellige skjermstørerlser. Fra små mobiler til store tver
+
+#4
+	Hvis vi tar kikk inn i fremtiden, her representert av en tesla som er en bil fra fremtiden, så vil vi konsumere nettinnhold på heilt andre måter. Feks så er det her en 17" skjerm i portrett som brukes mens man kjører bil!
+
+	-Derfor holder det ikke lenger å lage ett design for en bestemt skjermstørrelse, men en må ta hensyn til at nettsiden kan bli vist hvorsomhelt og hvordan som helst. 
+
+#5 
+	Så det var en presentasjon av problemet. Kordan kan me løse det, kossen ser en front end og responsiv design leveranse ut i 2015. 
+
+	Noe som e veldig kjent fra designverdenen er stilguider. Her er ett eksempel fra helsedirektoratet. De definerer hvilke farger som skal brukes, hvordan linker skal se ut, fonter bilder osv
+
+	- og det er vel og bra og veldig nyttig i prosessen, men det e ikkje någe du kan vise frem te kunden. Det blir alt for abstrakt, det er vanskelig å se for seg ka dt ska bli, fordi det e på ett så basic nivå
+
+#6 
+	så en smart mann som heter Brad frost har komt opp med løsningen, som han kalle for atomic web design. Det er tankemåte, eller metodlogi for å lage moderne robuste websider. 
+
+	atomer:
+	-byggesteinene i ett webgensesnitt
+	-kan ikke bli brutt ned til mindre elementer
+	-abstrakt
+	-ikke nyttige alene
+
+#7 Molekyler:
+	-satt sammen av flere atomer
+	-gjør en ting, og de gjør det bra
+
+#8 Organismer:
+	- satt sammen av molekyler
+	- definerer relasjonen mellom de ulike elementene
+	- oppmuntrer til generiske og gjenbrukbare komponenter
+
+#9 Sider:
+	- klientverdenen
+	- komplekse
+	- dette er noe en kan ta med på møter og vise frem
+	- brukertesting
+
+#10
+	- Designprosessen fra abstrakte atomer til konkrete sider
+	- Bygger fra bunnen av, i stedet for å starte med siden, så starter en med de minste elementene som er med å definere formspråket
+	- fra konsulent elelr designer / utvikler til klient
+
+#11
+	-2 konkrete eksempler på hvordan atomic design har vært nyttig i helsedirektoratet
+	1.  - det holder kode organisert. 
+		- padding mellom 
+
+#12
+	- digital dialog fastlege
+	- fritt valg av behandlingssted
+	- bonus når vi kjørte brukertest på dette oppsettet fant vi ut den måtte endres
+
+#
