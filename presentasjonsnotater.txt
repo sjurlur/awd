@@ -58,7 +58,7 @@
 	-1 eksempel på hvordan atomic design har vært nyttig i helsedirektoratet
 	1.  - det holder kode organisert. 
 		- hvor en kan gjøre endringer i koden. Om en endring her kommer til å brekke noe ett annet sted på nettsiden. 
-		-Trenger ikke være redd for å redigere 
+		-Trenger ikke være redd for å redige 
 
 #12
 	- digital dialog fastlege
