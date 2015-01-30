@@ -36,6 +36,7 @@
 #7 Molekyler:
 	-satt sammen av flere atomer
 	-gjør en ting, og de gjør det bra
+	-form som tre komponenter, i stedet for ett
 
 #8 Organismer:
 	- satt sammen av molekyler
@@ -54,9 +55,10 @@
 	- fra konsulent elelr designer / utvikler til klient
 
 #11
-	-2 konkrete eksempler på hvordan atomic design har vært nyttig i helsedirektoratet
+	-1 eksempel på hvordan atomic design har vært nyttig i helsedirektoratet
 	1.  - det holder kode organisert. 
-		- padding mellom 
+		- hvor en kan gjøre endringer i koden. Om en endring her kommer til å brekke noe ett annet sted på nettsiden. 
+		-Trenger ikke være redd for å redigere 
 
 #12
 	- digital dialog fastlege
